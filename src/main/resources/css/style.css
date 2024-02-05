@@ -1,0 +1,107 @@
+.root {
+    -fx-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -fx-font-size: 14pt;
+    -fx-background-color: #F5F5F5;
+}
+
+.title {
+    -fx-font-size: 32;
+    -fx-text-fill: #333333;
+}
+
+#filter {
+    -fx-background-color: #000000;
+}
+
+/*
+#FFFFFF (pure white)
+#F5F5F5 (light grey-white)
+#ECECEC (pale grey-white)
+#C1C1C1 (light grey)
+#9E9E9E (mid-tone grey)
+#757575 (dark grey)
+#62D09D (vibrant green)
+#2ECC71 (bright green)
+#228B22 (forest green)
+#006400 (dark green)
+#FFB900 (vibrant yellow)
+*/
+
+#addButton {
+    -fx-background-color: #FFFFFF;
+    -fx-padding: 10;
+    -fx-background-radius: 25;
+    -fx-border-radius: 25;
+    -fx-effect: dropshadow(gaussian, #C1C1C1, 10, 0, 1, 3);
+}
+
+.menubar {
+    -fx-background-color: #FFFFFF;
+    -fx-effect: dropshadow(gaussian, #C1C1C1, 10, 0, 0, 5);
+}
+
+.menubarButton {
+    -fx-background-color: inherit;
+    -fx-padding: 10;
+    -fx-background-radius: 25;
+    -fx-border-radius: 25;
+}
+
+.menubarButton:hover {
+    -fx-background-color: #ECECEC;
+}
+
+.menubarButton:disabled {
+    -fx-opacity: 0.3;
+}
+
+.sidebar {
+    -fx-background-color: #2ECC71;
+}
+
+.sidebarButton {
+    -fx-background-color: inherit;
+    -fx-font-size: 24;
+    -fx-font-weight: bold;
+    -fx-text-fill: #F5F5F5;
+    -fx-padding: 24;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+}
+
+.sidebarButton:hover {
+    -fx-background-color: #F5F5F5;
+    -fx-text-fill: #FFB900;
+    -fx-border-color: #FFB900;
+    -fx-border-width: 0px 0px 0px 5px;
+}
+
+.text-field {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #CCCCCC;
+    -fx-border-width: 2;
+    -fx-padding: 5;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+}
+
+.label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+.progress-bar {
+    -fx-accent: #4CAF50;
+}
+
+.table-view {
+    -fx-background-color: #FFFFFF;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #F5F5F5;
+}
+
+.table-cell {
+    -fx-alignment: center;
+}

@@ -1,0 +1,12 @@
+edu.ntnu.idatt1002.group12.flus
+edu.ntnu.idatt1002.group12.flus.controller
+edu.ntnu.idatt1002.group12.flus.model
+edu.ntnu.idatt1002.group12.flus.model.goals
+edu.ntnu.idatt1002.group12.flus.model.transactions
+edu.ntnu.idatt1002.group12.flus.utils
+edu.ntnu.idatt1002.group12.flus.view
+edu.ntnu.idatt1002.group12.flus.view.controllers
+edu.ntnu.idatt1002.group12.flus.view.controllers.budget
+edu.ntnu.idatt1002.group12.flus.view.controllers.checkin
+edu.ntnu.idatt1002.group12.flus.view.controllers.login
+edu.ntnu.idatt1002.group12.flus.view.controllers.profile
